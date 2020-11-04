@@ -1,0 +1,218 @@
+/* Default css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mid-content{
+    width: 1350px;
+    margin: auto;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align:center;
+}
+.text-right{
+    text-align: right;
+}
+.F-left{
+    float: left;
+}
+.F-right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* Header section css */
+.header-section {
+	background: #255788;
+}
+.header-logo {
+	width: 30%;
+}
+.header-logo img {
+	width: 211px;
+}
+.header-menu {
+	width: 70%;
+}
+.header-menu ul{
+    text-align: right;
+    list-style: none;
+}
+.header-menu ul li {
+	display: inline-block;
+	margin-left: -4px;
+}
+.header-menu ul li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 0 30px;
+	font-size: 25px;
+	border-right: 1px solid #ddd;
+	line-height: 71px;
+	transition: .4s;
+}
+.header-menu ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.header-menu ul li a:hover{
+    background:pink;
+}
+
+
+/* Banner section css */
+.banner-section{
+    background: url(./img/banner-cc-1030x515.jpg) no-repeat center;
+    padding: 200px 0;
+    background-size: cover;
+}
+.banner-text h2 {
+	background: rgba(0, 0, 0, .4);
+	color: white;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+.banner-text h1 {
+	background: rgba(183, 57, 57, .5);
+	width: 600px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px 0px;
+	font-size: 40px;
+	border-radius: 10px;
+	color: yellow;
+}
+
+
+/* About section */
+.about-section {
+	margin-top: 40px;
+}
+.about-section .about-text{
+    width: 600px;
+    margin: auto;
+}
+.about-text h2 {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+.about-text p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+/* Blog Section  */
+.blog-section{
+	margin-top: 35px;
+}
+.blog-item {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	float: left;
+	width: 31.3%;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px;
+	margin: 0 5px;
+}
+.blog-item span {
+	background: #3498db;
+	height: 60px;
+	width: auto;
+	line-height: 60px;
+	font-size: 30px;
+	padding: 14px;
+	color: white;
+	border-radius: 20px 0 20px 0;
+}
+.blog-item h2 {
+	margin-top: 20px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/* Container section */
+
+.container-section{
+	margin-top: 30px;
+}
+.container-left{
+	width: 70%;
+}
+.container-item{
+	margin-bottom: 10px;
+}
+.container-item img {
+	height: 300px;
+	width: auto;
+	float: left;
+	margin-right: 15px;
+}
+.container-item p{}
+
+.container-right{
+	width: 25%;
+}
+.container-right h2 {
+	border-bottom: 1px solid #ddd;
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.container-right ul{
+	list-style: none;
+}
+.container-right ul li {
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding: 6px 5px;
+	background: #fafafa;
+}
+
+/* Footer section */
+.footer {
+	background: #000;
+	color: #fff;
+	
+}
+.footer-left{
+	width: 50%;
+}
+.footer-left p {
+	margin-top: 17px;
+	font-size: 20px;
+}
+.footer-right{
+	width: 50%;
+}
+.footer-right ul{
+	list-style: none;
+	text-align: right;
+}
+.footer-right ul li {
+	display: inline-block;
+	margin: 10px;
+	background: white;
+	padding: 5px;
+	font-size: 22px;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+/* Day 24 Done!
+by using Float.
+made by- Rayhan Kobir */
